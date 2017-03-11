@@ -1,0 +1,13 @@
+TARGETNAME=mv9205
+TARGETPATH=obj 
+TARGETTYPE=DRIVER
+
+
+#TARGETLIBS=  $(DDK_LIB_PATH)\ntdll.lib \
+
+INCLUDES=..\
+
+MSC_WARNING_LEVEL=/W3 /WX
+
+SOURCES=			main.cpp		\
+					Cpprt.cpp		\
